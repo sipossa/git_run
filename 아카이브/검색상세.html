@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="군사자료디지털아카이브">
+	<meta name="keyword" content="군사자료디지털아카이브">
+	<meta name="copyright" content="@copy;">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+	<title>군사자료디지털아카이브</title>
+
+	<!-- 스타일 -->
+	<link rel="stylesheet" href="style/ko/reset.css">
+	<link rel="stylesheet" href="style/ko/common.css">
+	<link rel="stylesheet" href="style/ko/sub.css">
+	<link rel="stylesheet" href="style/ko/search/brief.css">
+	<link rel="stylesheet" href="style/ko/search/advence.css">
+	<link rel="stylesheet" href="style/ko/search/detail.css">
+
+	<!-- 스크립트 -->
+	<script src="plugin/jquery/jquery-1.8.3.min.js"></script>
+	<script src="plugin/jquery/jquery.easing.1.3.js"></script>
+	<script src="plugin/jquery/jquery.placeholder.min.js"></script>
+	<script src="plugin/jquery/jquery.dotdotdot.js"></script>
+	<script src="script/sub.js"></script>
+	<script src="script/search/brief.js"></script>
+
+</head>
+
+<body>
+	<div id="divAccessibility">
+		<ul>
+			<li><a href="#divTopMenu">메뉴 바로가기</a></li>
+			<li><a href="#divContents">본문 바로가기(skip to content)</a></li>
+			<li><a href="#divSearch">검색 바로가기</a></li>
+			<li><a href="#divFooter">도서관정보 바로가기</a></li>
+		</ul>
+	</div>
+	<div id="divWrapper">
+		<div class="blackBg"></div>
+		<!--divHeader-->
+		<div id="divHeader">
+			<!--header-->
+			<div class="header">
+				<div class="header2">
+					<div>
+						<h1>
+							<a href="">
+								<img src="images/ko/logo.png" alt="국방부 군사편찬연구소 군사사료관">
+								<span><span>국방부</span>군사편찬연구소<br>군사사료관</span>
+							</a>
+						</h1>
+						<div id="divTopMenu">
+							<div>
+								<ul>
+									<li>
+										<a href="">검색</a>
+										<ul>
+											<li>
+												<a href="상세검색.html" class="colorB">상세검색</a>
+											</li>
+											<li>
+												<a href="문서군검색.html" class="colorB">문서군검색</a>
+											</li>
+											<li>
+												<a href="">문서군소개</a>
+											</li>
+											<li>
+												<a href="">약어소개</a>
+											</li>
+											<li>
+												<a href="추천자료검색.html" class="colorB">추천자료검색</a>
+											</li>
+											<li>
+												<a href="검색목록.html" class="colorB">(검색목록)</a>
+											</li>
+											<li>
+												<a href="검색상세.html" class="colorB">(검색상세)</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">컬렉션</a>
+										<ul>
+											<li>
+												<a href="주요사건컬렉션.html">주요사건</a>
+											</li>
+											<li>
+												<a href="연구소편찬자료.html" class="colorB">연구소편찬자료</a>
+											</li>
+											<li>
+												<a href="연구소편찬자료 상세.html" class="colorB">(편찬자료상세)</a>
+											</li>
+											<li>
+												<a href="">군사지</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">참여마당</a>
+										<ul>
+											<li>
+												<a href="">공지사항</a>
+											</li>
+											<li>
+												<a href="">FAQ</a>
+											</li>
+											<li>
+												<a href="">Q&amp;A</a>
+											</li>
+											<li>
+												<a href="">자료실</a>
+											</li>
+											<li>
+												<a href="">오류신고</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">MY 아카이브</a>
+										<ul>
+											<li>
+												<a href="my기록물.html" class="colorB">MY 기록물</a>
+											</li>
+											<li>
+												<a href="">MY 검색기록</a>
+											</li>
+											<li>
+												<a href="">MY 열람기록</a>
+											</li>
+											<li>
+												<a href="">MY 코멘트</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">연구소소개</a>
+										<ul>
+											<li>
+												<a href="연구소 소개.html" class="colorB">인사말</a>
+											</li>
+											<li>
+												<a href="">연혁</a>
+											</li>
+											<li>
+												<a href="">이용안내</a>
+											</li>
+											<li>
+												<a href="">찾아오시는 길</a>
+											</li>
+											<li>
+												<a href="">조직도</a>
+											</li>
+											<li>
+												<a href="">사이트맵</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="divGlobalMenu">
+							<div>
+								<!-- <div class="visit">
+									<a href="" title="처음 방문이세요?">처음 방문이세요?</a>
+								</div> -->
+								<ul class="globalMenu">
+									<li class="login">
+										<a href="" title="로그인" class="loginBtn">로그인</a>
+										<div class="snsLogin">
+											<p>SNS 계정 로그인</p>
+											<div>
+												<a href="" class="naver">네이버 로그인</a>
+												<a href="" class="kakao">카카오 로그인</a>
+											</div>
+											<a href="" class="loginClose">닫기</a>
+										</div>
+									</li>
+									<li class="logout">
+										<a href="" title="로그아웃">로그아웃</a>
+									</li>
+									<li class="profile">
+										<a href="" title="프로필">프로필</a>
+										<div class="userInfo">
+											<p><span>퓨쳐누리</span>님이 로그인 하였습니다.</p>
+										</div>
+									</li>
+									<li class="wholeMenuBtnW">
+										<a href="" class="wholeMenuBtn">
+											<span></span>
+											<span></span>
+											<span></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!--//header-->
+			<!--wholeMenu-->
+			<div class="wholeMenu">
+				<div>
+					<div class="wholeMenuList">
+						<div class="menuList">
+							<ul>
+								<li>
+									<a href="">검색</a>
+									<ul>
+										<li>
+											<a href="상세검색.html" class="colorW">상세검색</a>
+										</li>
+										<li>
+											<a href="문서군검색.html" class="colorW">문서군검색</a>
+										</li>
+										<li>
+											<a href="">문서군소개</a>
+										</li>
+										<li>
+											<a href="">약어소개</a>
+										</li>
+										<li>
+											<a href="추천자료검색.html" class="colorW">추천자료검색</a>
+										</li>
+										<li>
+											<a href="검색목록.html" class="colorW">(검색목록)</a>
+										</li>
+										<li>
+											<a href="검색상세.html" class="colorW">(검색상세)</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">컬렉션</a>
+									<ul>
+										<li>
+											<a href="주요사건컬렉션.html" class="colorW">주요사건</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료.html" class="colorW">연구소편찬자료</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료 상세.html" class="colorW">(편찬자료상세)</a>
+										</li>
+										<li>
+											<a href="">군사지</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">참여마당</a>
+									<ul>
+										<li>
+											<a href="">공지사항</a>
+										</li>
+										<li>
+											<a href="">FAQ</a>
+										</li>
+										<li>
+											<a href="">Q&amp;A</a>
+										</li>
+										<li>
+											<a href="">자료실</a>
+										</li>
+										<li>
+											<a href="">오류신고</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">MY 아카이브</a>
+									<ul>
+										<li>
+											<a href="my기록물.html" class="colorW">MY 기록물</a>
+										</li>
+										<li>
+											<a href="">MY 검색기록</a>
+										</li>
+										<li>
+											<a href="">MY 열람기록</a>
+										</li>
+										<li>
+											<a href="">MY 코멘트</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">연구소소개</a>
+									<ul>
+										<li>
+											<a href="연구소 소개.html" class="colorW">인사말</a>
+										</li>
+										<li>
+											<a href="">연혁</a>
+										</li>
+										<li>
+											<a href="">이용안내</a>
+										</li>
+										<li>
+											<a href="">찾아오시는 길</a>
+										</li>
+										<li>
+											<a href="">조직도</a>
+										</li>
+										<li>
+											<a href="">사이트맵</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<a href="" class="wholeMenuClose">
+								<span></span>
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//wholeMenu-->
+		</div>
+		<!--//divHeader-->
+
+		<!--divContentsW-->
+		<div id="divContentsW">
+			<div id="divContents">
+				<div id="divSearch">
+					<form class="searchForm">
+						<fieldset>
+							<legend>자료검색</legend>
+							<div class="subSearch">
+								<div class="selectBox">
+									<select id="searchOpt" title="기본검색">
+										<option value="Opt1" selected="selected">기본검색</option>
+										<option value="Opt2">자료검색</option>
+									</select>
+								</div>
+								<input type="text" title="검색어 입력" 
+								class="textInput" placeholder="검색어를 입력하세요">
+								<div class="autoComW">
+									<div>
+										<div class="autoComContent">
+											<ul>
+												<li><a href="" title="국방부 나래배움터"> <span class="keyWord">국방</span>부 나래배움터</a>
+												</li>
+												<li><a href="" title=""> <span class="keyWord">국방</span>부</a>
+												</li>
+												<li><a href="" title=""> <span class="keyWord">국방</span>부 장관</a>
+												</li>
+												<li><a href="" title=""> <span class="keyWord">국방</span>부 군무원
+														채용</a></li>
+												<li><a href="" title="">군무원 <span class="keyWord">국방</span>부</a>
+												</li>
+												<li><a href="" title="">군무원 <span class="keyWord">국방</span>부</a>
+												</li>
+												<li><a href="" title="">군무원 <span class="keyWord">국방</span>부</a>
+												</li>
+											</ul>
+										</div>
+										<div class="suggestSearch">
+											<span>추천검색어</span>
+											<ul>
+												<li><a href="" title="한국국방연구원">한국국방연구원</a></li>
+												<li><a href="" title="이천국방어학">이천국방어학</a></li>
+												<li><a href="" title="2021년">2021년 국방예산</a></li>
+												<li><a href="" title="국방위원장">국방위원장</a></li>
+												<li><a href="" title="방위사업">방위사업</a></li>
+												<li><a href="" title="국방위원장">국방위원장</a></li>
+												<li><a href="" title="방위사업">방위사업</a></li>
+											</ul>
+										</div>
+										<div class="autoComFooter">
+											<span class="LSideArea">
+												<a href="" class="autoComHelp">도움말</a>
+											</span>
+											<span class="RSideArea">
+												<a href="" class="autoComClose">자동완성 끄기</a>
+												<a href="" class="suggestClose">추천검색어 끄기</a>
+											</span>
+										</div>
+									</div>
+								</div>
+								<a href="" title="다국어입력" class="otherLagnBtn">다국어입력</a>
+								<div class="languageWrap">
+									<div class="simple-keyboard"></div>
+									<div class="languageContent">
+										<span class="tit">다국어 입력</span>
+										<div class="languageSelect">
+											<a href="../../simple-keyboard/demos/?d=darkTheme">default</a>
+		
+											<a href="../../simple-keyboard/demos/?d=darkTheme">darkTheme</a>
+		
+											<a href="../../simple-keyboard/demos/?d=fullKeyboard">fullKeyboard</a>
+		
+											<a href="../../simple-keyboard/demos/?d=mobile">mobile</a>
+		
+											<a href="../../simple-keyboard/demos/?d=appleIOS">appleIOS</a>
+		
+											<a href="../../simple-keyboard/demos/?d=numeric">numeric</a>
+		
+											<a href="../../simple-keyboard/demos/?d=arabic">arabic</a>
+		
+											<a href="../../simple-keyboard/demos/?d=assamese">assamese</a>
+		
+											<a href="../../simple-keyboard/demos/?d=belarusian">belarusian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=bengali">bengali</a>
+		
+											<a href="../../simple-keyboard/demos/?d=burmese">burmese</a>
+		
+											<a href="../../simple-keyboard/demos/?d=chinese">chinese</a>
+		
+											<a href="../../simple-keyboard/demos/?d=czech">czech</a>
+		
+											<a href="../../simple-keyboard/demos/?d=english">english</a>
+		
+											<a href="../../simple-keyboard/demos/?d=farsi">farsi</a>
+		
+											<a href="../../simple-keyboard/demos/?d=french">french</a>
+		
+											<a href="../../simple-keyboard/demos/?d=georgian">georgian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=german">german</a>
+		
+											<a href="../../simple-keyboard/demos/?d=gilaki">gilaki</a>
+		
+											<a href="../../simple-keyboard/demos/?d=greek">greek</a>
+		
+											<a href="../../simple-keyboard/demos/?d=hebrew">hebrew</a>
+		
+											<a href="../../simple-keyboard/demos/?d=hindi">hindi</a>
+		
+											<a href="../../simple-keyboard/demos/?d=italian">italian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=japanese">japanese</a>
+		
+											<a href="../../simple-keyboard/demos/?d=kannada">kannada</a>
+		
+											<a href="../../simple-keyboard/demos/?d=korean">korean</a>
+		
+											<a href="../../simple-keyboard/demos/?d=nigerian">nigerian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=norwegian">norwegian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=polish">polish</a>
+		
+											<a href="../../simple-keyboard/demos/?d=russian">russian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=russianOld">russianOld</a>
+		
+											<a href="../../simple-keyboard/demos/?d=sindhi">sindhi</a>
+		
+											<a href="../../simple-keyboard/demos/?d=spanish">spanish</a>
+		
+											<a href="../../simple-keyboard/demos/?d=swedish">swedish</a>
+		
+											<a href="../../simple-keyboard/demos/?d=thai">thai</a>
+		
+											<a href="../../simple-keyboard/demos/?d=turkish">turkish</a>
+		
+											<a href="../../simple-keyboard/demos/?d=ukrainian">ukrainian</a>
+		
+											<a href="../../simple-keyboard/demos/?d=urdu">urdu</a>
+		
+											<a href="../../simple-keyboard/demos/?d=uyghur">uyghur</a>
+										</div>
+									</div>
+								</div>
+								
+								<input type="image" class="searchBtn" src="images/ko/ico/searchBtn.png" alt="검색" title="검색">
+								<a href="" class="detailSearchBtn">상세검색</a>
+								<a href="" class="docSearchBtn">문서군검색</a>
+							</div>
+						</fieldset>
+					</form>
+					<div class="retry">
+						<input type="checkbox" id="refineSearch">
+						<label for="refineSearch">결과 내 검색</label>
+					</div>
+				</div>
+				<!--divContent 시작-->
+				<div id="divContent">
+					<!--breif-->
+					<div class="breif">
+						<!--breifL-->
+						<div class="breifL">
+							<div class="detailOption">
+								<div class="detailFunction">
+									<ul>
+										<li>
+											<a href="" class="outgoing">반출</a>
+											<div class="outGoingCont">
+												<select class="conOpt2" title="다운종류">
+													<option value="" selected="selected">훈셀</option>
+													<option value="">엑셀</option>
+												</select>
+												<a href="" class="download btnType4">다운로드</a>
+											</div>
+										</li>
+										<li>
+											<a href="">인쇄</a>
+										</li>
+										<li>
+											<a href="">MY기록물담기</a>
+										</li>
+									</ul>
+								</div>
+								<div class="listBack">
+									<a href="">목록보기</a>
+								</div>
+							</div>
+							<!--searchDetail-->
+							<div class="searchDetail">
+								<h3>White House Central Files, Korean Emergency [1 of 3, 1950~52]</h3>
+
+								<div class="detailInfo">
+									<h4>식 별</h4>
+									<div>
+										<dl>
+											<dt>파일 ID</dt>
+											<dd class="roboto">G10010-S0010-F010</dd>
+										</dl>
+										<dl>
+											<dt>제목</dt>
+											<dd class="roboto">White House Central Files, Korean Emergency [1 of 3, 1950~52]</dd>
+										</dl>
+										<dl>
+											<dt>기타제목</dt>
+											<dd class="roboto">1950</dd>
+										</dl>
+										<dl>
+											<dt>생산년도</dt>
+											<dd class="roboto">1952</dd>
+										</dl>
+										<dl>
+											<dt>종료년도</dt>
+											<dd>파일</dd>
+										</dl>
+										<dl>
+											<dt>계층명</dt>
+											<dd>문서</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>배 경</h4>
+									<div>
+										<dl>
+											<dt>원소장처</dt>
+											<dd class="roboto">Harry Truman Presidential Library</dd>
+										</dl>
+										<dl>
+											<dt>수집국가</dt>
+											<dd>미국</dd>
+										</dl>
+										<dl>
+											<dt>자료제공자</dt>
+											<dd>홍길동</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>내용과 구조</h4>
+									<div>
+										<dl>
+											<dt>주제어</dt>
+											<dd>트루먼, Harry S. Truman, 무초, 맥아더, 이승만, 유엔군사령부, UNC, 애치슨, Dean Acheson, 존슨, Louis Johnson</dd>
+										</dl>
+										<dl>
+											<dt>관련인물</dt>
+											<dd>트루먼, Harry S. Truman, 무초, 맥아더, 이승만, 애치슨, Dean Acheason, 존슨, Louise Johnson</dd>
+										</dl>
+										<dl>
+											<dt>관련사건</dt>
+											<dd>한국전쟁</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>접근과 이용환경</h4>
+									<div>
+										<dl>
+											<dt>원소장처 공개여부</dt>
+											<dd class="roboto">Y</dd>
+										</dl>
+										<dl>
+											<dt>문서언어</dt>
+											<dd>영어</dd>
+										</dl>
+										<dl>
+											<dt>매체유형</dt>
+											<dd class="roboto">MF</dd>
+										</dl>
+										<dl>
+											<dt>수량(크기)</dt>
+											<dd class="roboto">181</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>관련자료</h4>
+									<div>
+										<dl>
+											<dt>파일 ID</dt>
+											<dd class="roboto">G10010-S0010-F010</dd>
+										</dl>
+										<dl>
+											<dt>제목</dt>
+											<dd class="roboto">White House Central Files, Korean Emergency [1 of 3, 1950~52]</dd>
+										</dl>
+										<dl>
+											<dt>기타제목</dt>
+											<dd class="roboto">1950</dd>
+										</dl>
+										<dl>
+											<dt>생산년도</dt>
+											<dd class="roboto">1952</dd>
+										</dl>
+										<dl>
+											<dt>종료년도</dt>
+											<dd>파일</dd>
+										</dl>
+										<dl>
+											<dt>계층명</dt>
+											<dd>문서</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>추가설명</h4>
+									<div>
+										<dl>
+											<dt>증언자</dt>
+											<dd>홍길동</dd>
+										</dl>
+									</div>
+								</div>
+
+								<div class="detailInfo">
+									<h4>기술통제</h4>
+									<div>
+										<dl>
+											<dt>담당자</dt>
+											<dd>홍길동</dd>
+										</dl>
+										<dl>
+											<dt>발행국</dt>
+											<dd>미국</dd>
+										</dl>
+										<dl>
+											<dt>발행일</dt>
+											<dd class="roboto">1950.06.16</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+							<!--//searchDetail-->
+							<div class="comment">
+								<ul>
+									<li>
+										<div class="commentList">
+											<div class="commentTop">
+												<p class="commentWriter">홍길동</p>
+											</div>
+											<div class="commentBtn">
+												<a href="#commentEditForm1" onclick="$('.html').focus;" class="edit">수정</a>
+												<a href="" class="delete">삭제</a>
+											</div>
+											<div class="commentDetail">
+												<p>이탈리아는 다채로운 문화 역사를 볼 수 있는 나라입니다. 피렌체, 바티칸, 로마의 거리와 박물관 구경은 잊을 수 없는 좋은 추억이죠. 류동현 작가님은 35개의 도시 미술 여행 추억들을 &ldquo;어쩌다 이탈리아 미술과 걷다&rdquo;로 공유합니다. 이탈리아는 다채로운 문화 역사를 볼 수 있는 나라입니다. 피렌체, 바티칸, 로마의 거리와 박물관 구경은 잊을 수 없는 좋은 추억이죠. 류동현 작가님은 35개의 도시 미술 여행 추억들을 &ldquo;어쩌다 이탈리아 미술과 걷다&rdquo;로 공유합니다. </p>
+												<a href="" class="viewBtn">펼쳐보기</a>
+											</div>
+										</div>
+										<div class="commentPop" id="commentEditForm1">
+											<div class="commentPopTop">
+												<p class="tit">코멘트</p>
+												<a href="" class="popClose">닫기</a>
+											</div>
+											<div class="commentCont">
+												<textarea placeholder="내용을 입력하세요"></textarea>
+												<div class="commentPopBtn">
+													<input type="reset" value="취소" class="btnType1">
+													<input type="submit" value="저장" class="btnType2">
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="commentList">
+											<div class="commentTop">
+												<p class="commentWriter">홍길동</p>
+											</div>
+											<div class="commentBtn">
+												<a href="#commentEditForm2" onclick="$('.html').focus;" class="edit">수정</a>
+												<a href="" class="delete">삭제</a>
+											</div>
+											<div class="commentDetail">
+												<p>이탈리아는 다채로운 문화 역사를 볼 수 있는 나라입니다. 피렌체, 바티칸, 로마의 거리와 박물관 구경은 잊을 수 없는 좋은 추억이죠. 류동현 작가님은 35개의 도시 미술 여행 추억들을 &ldquo;어쩌다 이탈리아 미술과 걷다&rdquo;로 공유합니다. 이탈리아는 다채로운 문화 역사를 볼 수 있는 나라입니다. 피렌체, 바티칸, 로마의 거리와 박물관 구경은 잊을 수 없는 좋은 추억이죠. 류동현 작가님은 35개의 도시 미술 여행 추억들을 &ldquo;어쩌다 이탈리아 미술과 걷다&rdquo;로 공유합니다. </p>
+												<a href="" class="viewBtn">펼쳐보기</a>
+											</div>
+										</div>
+										<div class="commentPop" id="commentEditForm2">
+											<div class="commentPopTop">
+												<p class="tit">코멘트</p>
+												<a href="" class="popClose">닫기</a>
+											</div>
+											<div class="commentCont">
+												<textarea placeholder="내용을 입력하세요222"></textarea>
+												<div class="commentPopBtn">
+													<input type="reset" value="취소" class="btnType1">
+													<input type="submit" value="저장" class="btnType2">
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<div class="commentInputW">
+									<a href="#commentWrite" onclick="$('.html').focus;" class="commentInput btnType3">코멘트 입력</a>
+								</div>
+								<div class="commentPop" id="commentWrite">
+									<div class="commentPopTop">
+										<p class="tit">코멘트</p>
+										<a href="" class="popClose">닫기</a>
+									</div>
+									<div class="commentCont">
+										<textarea placeholder="코멘트 입력을 눌렷을때 창"></textarea>
+										<div class="commentPopBtn">
+											<input type="reset" value="취소" class="btnType1">
+											<input type="submit" value="저장" class="btnType2">
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!--//breifL-->
+						<!--breifR-->
+						<div class="breifR underCon">
+							<!--docContent-->
+							<div class="docContent mini">
+								<h4>계층 브라우징</h4>
+								 <ul>
+                                <li class="group">
+									<div>
+										<a href="" class="groupInfo"><span class="txt">Group</span><span class="title">Selected Documents from Papers of Harry S. Truman Selected Documents from Papers of Harry S. Truman Selected n</span>
+										</a>
+										<a href="" class="childrenType2 groupDown">5</a>
+									</div>	
+                                    <ul>
+                                        <li class="series">
+                                            <div>
+                                                <a href="" class="seriesInfo">
+                                                    <span class="txt">Series</span>
+                                                    <span class="title">White House Central FilesWhite House Central FilesWhite House Central FilesWhite House Central FilesWhite House Central FilesWhite House Central Files</span>
+												</a>
+												<a href="" class="childrenType2 seriesDown">5</a>
+                                            </div>    
+                                            <ul>
+                                                <li class="file">
+                                                    <div>
+                                                    	<a href="" class="fileInfo">
+                                                        	<span class="txt">File</span><span class="title">White House Central Files, Korean Emergency[1 of 3, 1950~52]</span>
+														</a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>    
+                                                    <ul>
+                                                        <li class="item">
+                                                            <a href=""> <span class="txt">item</span><span class="title">Terrain Handbook No.65, Seoul and Vicinity, Korea (1950.6.16)</span></a>
+                                                        </li>
+                                                        <li class="item">
+                                                            <a href=""><span class="txt">item</span><span class="title">Korean Speech September 9, 1950, Lloyd Files</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="file">
+                                                    <div>
+                                                        <a href="" class="fileInfo"><span class="txt">File</span><span class="title">White House Central Files, Korean Emergency[2 of 3, Hanbok on Seoul, Korea</span></a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>    
+                                                    <ul>
+                                                        <li class="item">
+                                                            <a href=""> <span class="txt">item</span><span class="title">Terrain Handbook No.65, Seoul and Vicinity, Korea (1950.6.16)</span></a>
+                                                        </li>
+                                                        <li class="item">
+                                                            <a href=""><span class="txt">item</span><span class="title">Korean Speech September 9, 1950, Lloyd Files</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="file">
+                                                    <div>
+														<a href="" class="fileInfo"><span class="txt">File</span><span class="title">Files of David D. Lloyd, Presidential Speech and Messages</span></a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>    
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="series">
+                                            <div>
+                                                <a href="" class="seriesInfo">
+                                                    <span class="txt">Series</span><span class="title">Selected Documents from Papers of Harry S. Truman</span>
+                                                </a>
+												<a href="" class="childrenType2 seriesDown">5</a>
+                                            </div>    
+                                            <ul>
+                                                <li class="file">
+                                                    <div>
+                                                        <a href="" class="fileInfo">
+															<span class="txt">File</span><span class="title">White House Central Files, Korean Emergency[1 of 3, 1950~52]</span>
+														</a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>    
+                                                    <ul>
+                                                        <li class="item">
+                                                            <a href=""> <span class="txt">item</span><span class="title">Terrain Handbook No.65, Seoul and Vicinity, Korea (1950.6.16)</span></a>
+                                                        </li>
+                                                        <li class="item">
+                                                            <a href=""><span class="txt">item</span><span class="title">Korean Speech September 9, 1950, Lloyd Files</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="file">
+                                                    <div>
+														<a href="" class="fileInfo"><span class="txt">File</span><span class="title">White House Central Files, Korean Emergency[2 of 3, Hanbok on Seoul, Korea</span></a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>    
+                                                    <ul>
+                                                        <li class="item">
+                                                            <a href=""> <span class="txt">item</span><span class="title">Terrain Handbook No.65, Seoul and Vicinity, Korea (1950.6.16)</span></a>
+                                                        </li>
+                                                        <li class="item">
+                                                            <a href=""><span class="txt">item</span><span class="title">Korean Speech September 9, 1950, Lloyd Files</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="file">
+                                                    <div>
+														<a href="" class="fileInfo"><span class="txt">File</span><span class="title">Files of David D. Lloyd, Presidential Speech and Messages</span></a>
+														<a href="" class="childrenType2 fileDown">5</a>
+                                                    </div>
+													<ul>
+                                                        <li class="item">
+                                                            <a href=""> <span class="txt">item</span><span class="title">Terrain Handbook No.65, Seoul and Vicinity, Korea (1950.6.16)</span></a>
+                                                        </li>
+                                                        <li class="item">
+                                                            <a href=""><span class="txt">item</span><span class="title">Korean Speech September 9, 1950, Lloyd Files</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+							</div>
+							<!--//docContent-->
+							<!--docPreview-->
+							<div class="docPreview">
+								<h4>원문미리보기</h4>
+								<div class="previewImg">
+									<img src="images/ko/ex3.png" alt="xxxxxx이미지">
+								</div>
+								<div class="docPreviewBtnW">
+									<div class="docPreviewBtn">
+										<div>										
+											<a href="" class="previewBtn1">목차보기</a>
+											<div class="itemCont">
+												<ul>
+													<li>
+														<a href="">1. item1</a>
+													</li>
+													<li>
+														<a href="">2. item2</a>
+													</li>
+													<li>
+														<a href="">3. item3</a>
+													</li>
+													<li>
+														<a href="">4. item4</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div>
+											<a href="" class="previewBtn2">원문보기</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--//docPreview-->
+						</div>
+						<!--//breifR-->
+					</div>
+					<!--//breif-->
+				</div>
+				<!--//divContent-->
+			</div>
+			<!--//divContents-->
+		</div>
+		<!--//divContentsW-->
+
+		<!--divFooter-->
+		<div id="divFooter">
+			<div class="footerBottom">
+				<div>
+					<div class="footerLeft">
+						<div class="footerMenu">
+							<ul>
+								<li><a href="">개인정보처리방침</a></li>
+								<li><a href="">이메일주소무단수집거부</a></li>
+								<li><a href="">찾아오시는길</a></li>
+							</ul>
+						</div>
+						<div class="footerInfo">
+							<p class="address">서울특별시 용산구 이태원로29 군사편찬연구소[우편번호:04353]</p>
+							<p class="tel">대표전화 : 02-748-1685 | 민원안내 : 02-748-1681 | 정보자료실 : 02-709-3187 | Fax :
+								02-748-1638</p>
+							<p>COPYRIGHT©2013 대한민국 국방부 군사편찬연구소. All right reserved</p>
+						</div>
+					</div>
+					<div class="footerRight">
+						<div class="visitInfo">
+							<ul>
+								<li>전체<span>34228</span></li>
+								<li>당일<span>134</span></li>
+								<li>전일<span>3214</span></li>
+							</ul>
+						</div>
+						<div class="familySite">
+							<a href="">관련사이트</a>
+							<ul>
+								<li>
+									<a href="" target="_blank" title="">국방부</a>
+								</li>
+								<li>
+									<a href="" target="_blank" title="">국방대학교</a>
+								</li>
+								<li>
+									<a href="" target="_blank" title="">한국국방연구원</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//divFooter-->
+		<a href="" class="topBtn">Top</a>
+	</div>
+	<!--divWrapper-->
+</body>
+
+</html>

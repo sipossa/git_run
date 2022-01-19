@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="군사자료디지털아카이브">
+    <meta name="keyword" content="군사자료디지털아카이브">
+    <meta name="copyright" content="@copy;">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+    <title>군사자료디지털아카이브</title>
+
+    <!-- 스타일 -->
+    <link rel="stylesheet" href="style/ko/reset.css">
+    <link rel="stylesheet" href="style/ko/common.css">
+    <link rel="stylesheet" href="style/ko/sub.css">
+    <link rel="stylesheet" href="style/ko/guide.css">
+
+    <!-- 스크립트 -->
+    <script src="plugin/jquery/jquery-1.8.3.min.js"></script>
+	<script src="plugin/jquery/jquery.easing.1.3.js"></script>
+    <script src="plugin/jquery/jquery.placeholder.min.js"></script>
+    <script src="plugin/jquery/jquery.dotdotdot.js"></script>
+    <script src="script/sub.js"></script>
+
+</head>
+
+<body>
+    <div id="divAccessibility">
+        <ul>
+            <li><a href="#divTopMenu">메뉴 바로가기</a></li>
+            <li><a href="#divContents">본문 바로가기(skip to content)</a></li>
+            <li><a href="#divSearch">검색 바로가기</a></li>
+            <li><a href="#divFooter">도서관정보 바로가기</a></li>
+        </ul>
+    </div>
+    <div id="divWrapper">
+		<div class="blackBg"></div>
+        <!--divHeader-->
+        <div id="divHeader">
+            <!--header-->
+            <div class="header">
+                <div class="header1">
+                    <div id="divGlobalMenu">
+                        <div>
+                            <div class="visit">
+                                <a href="" title="처음 방문이세요?">처음 방문이세요?</a>
+                            </div>
+                            <ul class="globalMenu">
+                                <li class="login">
+                                    <a href="" title="로그인" class="loginBtn">로그인</a>
+                                    <div class="snsLogin">
+                                        <p>SNS 계정 로그인</p>
+                                        <div>
+                                            <a href="" class="naver">네이버 로그인</a>
+                                            <a href="" class="kakao">카카오 로그인</a>
+                                            <a href="" class="google">구글 로그인</a>
+                                        </div>
+                                        <a href="" class="loginClose">닫기</a>
+                                    </div>
+                                </li>
+                                <li class="logout">
+                                    <a href="" title="로그아웃">로그아웃</a>
+                                </li>
+                                <li class="profile">
+                                    <a href="" title="프로필">프로필</a>
+                                </li>
+                                <li class="globalSearch">
+                                    <a href="" title="사이트내 검색">사이트내 검색</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header2">
+                    <div>
+                        <h1>
+                            <a href="">군사자료<span>디지털아카이브</span></a>
+                        </h1>
+                        <div id="divTopMenu">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="">검색</a>
+                                        <ul>
+                                            <li>
+                                                <a href="상세검색.html" class="colorB">상세검색</a>
+                                            </li>
+                                            <li>
+                                                <a href="문서군검색.html" class="colorB">문서군검색</a>
+                                            </li>
+                                            <li>
+                                                <a href="">문서군소개</a>
+                                            </li>
+                                            <li>
+                                                <a href="">약어소개</a>
+                                            </li>
+                                            <li>
+                                                <a href="추천자료검색.html" class="colorB">추천자료검색</a>
+                                            </li>
+                                            <li>
+                                                <a href="검색목록.html" class="colorB">(검색목록)</a>
+                                            </li>
+                                            <li>
+                                                <a href="검색상세.html" class="colorB">(검색상세)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">컬렉션</a>
+                                        <ul>
+                                            <li>
+                                                <a href="주요사건컬렉션.html">주요사건</a>
+                                            </li>
+                                            <li>
+                                                <a href="연구소편찬자료.html" class="colorB">연구소편찬자료</a>
+                                            </li>
+                                            <li>
+                                                <a href="연구소편찬자료 상세.html" class="colorB">(편찬자료상세)</a>
+                                            </li>
+                                            <li>
+                                                <a href="">군사지</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">참여마당</a>
+                                        <ul>
+                                            <li>
+                                                <a href="">공지사항</a>
+                                            </li>
+                                            <li>
+                                                <a href="">FAQ</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Q&amp;A</a>
+                                            </li>
+                                            <li>
+                                                <a href="">자료실</a>
+                                            </li>
+                                            <li>
+                                                <a href="">오류신고</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">MY 아카이브</a>
+                                        <ul>
+                                            <li>
+                                                <a href="my기록물.html" class="colorB">MY 기록물</a>
+                                            </li>
+                                            <li>
+                                                <a href="">MY 검색기록</a>
+                                            </li>
+                                            <li>
+                                                <a href="">MY 열람기록</a>
+                                            </li>
+                                            <li>
+                                                <a href="">MY 코멘트</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">연구소소개</a>
+                                        <ul>
+                                            <li>
+                                                <a href="연구소 소개.html" class="colorB">인사말</a>
+                                            </li>
+                                            <li>
+                                                <a href="">연혁</a>
+                                            </li>
+                                            <li>
+                                                <a href="">이용안내</a>
+                                            </li>
+                                            <li>
+                                                <a href="">찾아오시는 길</a>
+                                            </li>
+                                            <li>
+                                                <a href="">조직도</a>
+                                            </li>
+                                            <li>
+                                                <a href="">사이트맵</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <a href="" class="wholeMenuBtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--//header-->
+			<!--wholeMenu-->
+			<div class="wholeMenu">
+				<div>
+					<div class="wholeMenuList">
+						<div class="menuList">
+							<ul>
+								<li>
+									<a href="">검색</a>
+									<ul>
+										<li>
+											<a href="상세검색.html" class="colorW">상세검색</a>
+										</li>
+										<li>
+											<a href="문서군검색.html" class="colorW">문서군검색</a>
+										</li>
+										<li>
+											<a href="">문서군소개</a>
+										</li>
+										<li>
+											<a href="">약어소개</a>
+										</li>
+										<li>
+											<a href="추천자료검색.html" class="colorW">추천자료검색</a>
+										</li>
+										<li>
+											<a href="검색목록.html" class="colorW">(검색목록)</a>
+										</li>
+										<li>
+											<a href="검색상세.html" class="colorW">(검색상세)</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">컬렉션</a>
+									<ul>
+										<li>
+											<a href="주요사건컬렉션.html" class="colorW">주요사건</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료.html" class="colorW">연구소편찬자료</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료 상세.html" class="colorW">(편찬자료상세)</a>
+										</li>
+										<li>
+											<a href="">군사지</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">참여마당</a>
+									<ul>
+										<li>
+											<a href="">공지사항</a>
+										</li>
+										<li>
+											<a href="">FAQ</a>
+										</li>
+										<li>
+											<a href="">Q&amp;A</a>
+										</li>
+										<li>
+											<a href="">자료실</a>
+										</li>
+										<li>
+											<a href="">오류신고</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">MY 아카이브</a>
+									<ul>
+										<li>
+											<a href="my기록물.html" class="colorW">MY 기록물</a>
+										</li>
+										<li>
+											<a href="">MY 검색기록</a>
+										</li>
+										<li>
+											<a href="">MY 열람기록</a>
+										</li>
+										<li>
+											<a href="">MY 코멘트</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">연구소소개</a>
+									<ul>
+										<li>
+											<a href="연구소 소개.html" class="colorW">인사말</a>
+										</li>
+										<li>
+											<a href="">연혁</a>
+										</li>
+										<li>
+											<a href="">이용안내</a>
+										</li>
+										<li>
+											<a href="">찾아오시는 길</a>
+										</li>
+										<li>
+											<a href="">조직도</a>
+										</li>
+										<li>
+											<a href="">사이트맵</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<a href="" class="wholeMenuClose">
+								<span></span>
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//wholeMenu-->
+        </div>
+        <!--//divHeader-->
+        
+        <!--divContentsW-->
+        <div id="divContentsW">
+            <div id="divContents">
+                <div id="divSearch">
+                    <form class="searchForm">
+                        <fieldset>
+                            <legend>자료검색</legend>
+                            <div class="subSearch">
+                                <div class="selectBox">
+                                    <select id="searchOpt" title="기본검색">
+                                        <option value="Opt1" selected="selected">기본검색</option>
+                                        <option value="Opt2">자료검색</option>
+                                    </select>
+                                </div>
+                                <input type="text" title="검색어 입력" class="textInput" placeholder="검색어를 입력하세요">
+                                <input type="image" class="searchBtn" src="images/ko/ico/searchBtn.png" alt="검색" title="검색">
+                                <a href="" class="detailSearchBtn">상세검색</a>
+                                <a href="" class="docSearchBtn">문서군검색</a>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div class="retry">
+                        <input type="checkbox" id="refineSearch">
+                        <label for="refineSearch">결과 내 검색</label>
+                    </div>
+                </div>
+                <div class="subInfo">
+                    <h2 id="divTitle">소장 인사말</h2>
+                    <div id="divLocation">
+                        <ul>
+                            <li><a href="">home</a></li>
+                            <li><a href="">연구소 소개</a></li>
+                            <li><a href="">소장 인사말</a></li>
+                        </ul>
+                    </div>
+                </div>    
+                <!--divContent 시작-->
+                <div id="divContent">
+                    <div class="archiveIntro">
+                        <div class="introTitle">
+                            <h3>안녕하십니까<br><span>홈페이지 방문을 진심으로 환영합니다.</span></h3>
+                        </div>
+                        <div class="introTxt">
+                            <p>군사편찬연구소는 &ldquo;유능한 안보&rdquo;와 &ldquo;튼튼한 국방&rdquo;이라는 국방 비전을 구현하기 위하여 &ldquo;국방사&middot;군사사 및 전쟁사 연구&middot;편찬&rdquo;, &ldquo;군사작전 사료의 조사&middot;연구&rdquo;, 각종 군사관련 자료의 수집&middot;보존 및 관리"의 임무를 헌신적으로 수행하고 있습니다.</p>
+                            <p>인류의 역사가 전쟁의 역사라 해도 과언이 아닐 정도로 전쟁은 역사상 큰 비중을 차지해왔습니다. 우리 민족사 또한 전쟁의 참화와 민족의 항쟁으로 점철되었다는 사실은 모두가 아는 바 입니다. 평화를 보장하기 위해 전쟁을 연구하는 일은 절대 필요한 일이라 하겠습니다. 역사는 실험할 수 없는 인간사의 소중한 경험이요 자산입니다. 선인들이 '법고창신(法古創新)'을 역설했던 것도 역사적경험을 삶의 지혜로 삼고자 한 교훈을 담고 있었던 것 입니다.</p>
+                            <p>이러한 역사인식 아래에서 당 연구소는 국방사, 전쟁사, 군사사, 국제분쟁사 등의연구&middot;편찬을 수행하고 있으며, 국내&middot;외 군사연구기관과도 활발한 교류협력을 통해 산재해 있는 군사자료를 수집&middot;보존&middot;관리하고나아가 정보서비스를 제공한다는 차원에서 적극적인 자료공개로 일반 연구자들에게도 도움을 주고 있습니다.</p>
+                            <p>당 연구소는 21세기 정보화 시대의 요구에 부응하면서 민족사에 대한 뚜렷한 역사의식과 세계 유일의 분단국이라는 냉정한 현실인식을 견지하면서 군사사 연구를 통해 국가안보의 구현에 기여하고자 최선을 다 할 것 입니다.</p>
+                            <p>여러분의 지속적인 성원과 관심을 부탁드립니다.<br>감사합니다.</p>
+							<p class="alignCen">군사편찬연구소장&nbsp; 이 성 춘</p>
+                        </div>
+                    </div>
+                </div>
+                <!--//divContent-->
+            </div>
+            <!--//divContents-->
+        </div>
+        <!--//divContentsW-->
+
+        <!--divFooter-->
+        <div id="divFooter">
+            <div class="footerMenu">
+                <ul>
+                    <li>
+                        <a href="" title="개인정보처리방침">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="" title="이용약관">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="" title="이메일무단수집거부">이메일무단수집거부</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerInfo">
+                <address>
+                    서울특별시 용산구 이태원로29 군사편찬연구소[우편번호:04353] 대표전화 : 02-748-1685 | 민원안내 : 02-748-1681 | 정보자료실 : 02-709-3187 | Fax : 02-748-1638
+                </address>
+                <p class="copy">COPYRIGHT&copy;2013 대한민국 국방부 군사편찬연구소. All right reserved</p>
+            </div>
+        </div>
+        <!--//divFooter-->
+		<a href="" class="topBtn">Top</a>
+    </div>
+    <!--divWrapper-->
+</body>
+
+</html>

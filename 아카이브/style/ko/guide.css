@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.alignCen {text-align:center !important}
+.subForm {padding:60px 40px;background:#fff;border-radius:3px;border:1px solid #e8ebf3}
+.subForm2 {margin-top:40px}
+
+
+/*연구소 소개*/
+.archiveIntro {padding:0 40px;background:#fff;border-radius:3px;border:1px solid #e8ebf3}
+.archiveIntro .introTitle {padding:75px 0;border-bottom:1px solid #d8d8d8}
+.archiveIntro .introTitle h3 {width:780px;margin:0 auto;color:#333;font-family:NotoSansDL,sans-serif;font-size:28px;letter-spacing:-0.075em;line-height:48px;text-align:center;word-break:keep-all}
+.archiveIntro .introTitle h3>span {font-family:NotoSansKRB,sans-serif;font-size:28px}
+.archiveIntro .introTxt {padding:75px 0}
+.archiveIntro .introTxt p {color:#646464;font-family:NotoSansDL,sans-serif;font-size:16px;letter-spacing:-0.075em;line-height:32px}
+.archiveIntro .introTxt p:not(:last-child) {margin-bottom:32px}
+
+@media screen and (max-width:930px){
+    .archiveIntro .introTitle h3 {width:auto}
+}
+@media screen and (max-width:719px){
+    .archiveIntro {padding:0 20px}
+    .archiveIntro .introTitle {padding:40px 0}
+    .archiveIntro .introTitle h3 {font-size:22px;line-height:38px}
+    .archiveIntro .introTitle h3>span {font-size:22px}
+    .archiveIntro .introTxt {padding:40px 0}
+    .archiveIntro .introTxt p {font-size:15px}
+    .archiveIntro .introTxt p:not(:last-child) {margin-bottom:20px}
+}
+
+/*연혁*/
+.history .historyCont:not(:last-child) {margin-bottom:50px}
+.history .historyCont:after {content:"";display:block;clear:both}
+.history .historyCont .years {margin-bottom:25px;color:#2c1fdf;font-family:NotoSansKRM,sans-serif;font-size:28px}
+.history .historyCont>ul {padding-left:3px}
+.history .historyCont>ul>li:not(:last-child) {margin-bottom:20px}
+.history .historyCont>ul>li p.year {float:left;width:95px;color:#3b3a3a;font-size:20px;}
+.history .historyCont>ul>li p.detail {margin-left:95px;color:#3b3a3a;font-size:20px;font-family:NotoSansKRM,sans-serif;letter-spacing:-0.03em}
+
+/*직원소개*/
+.headNumber {margin:0 0 40px 0;padding-left:15px}
+.headNumber>div:after {content:"";display:block;clear:both}
+.headNumber>div>p {float:left;line-height:24px}
+.headNumber>div>p:not(:last-child) {margin-right:20px}
+.headNumber>div>p>span.agency {margin-right:15px;color:#646464;font-size:16px;letter-spacing:-0.025em}
+.headNumber>div>p>span.num {color:#404040;font-family:RobotoB,sans-serif;font-size:24px;letter-spacing:-0.025em}
+.headNumber>div>p>span.detail {color:#404040;font-size:18px;font-family:NotoSansDL,sans-serif;letter-spacing:-0.025em}
+
+.staff {}
+.staff>div:after {content:"";display:block;clear:both}
+.staff>div>div.staffBox {float:left;margin-bottom:24px}
+.staff>div>div.staffBox:not(:last-child) {margin-right:24px}
+.staff>div>div.staffBox>div {min-width:285px;min-height:233px;padding:30px 23px 50px 23px;background:#fff;border-radius:20px;box-sizing:border-box;box-shadow:4px 4px 15px 2px rgba(57,60,67,0.11);-webkit-box-shadow:4px 4px 15px 2px rgba(57,60,67,0.11)}
+.staff>div>div.staffBox>div p.position {margin-bottom:30px;padding:18px 0 18px 70px;background:url(../../images/ko/guide/people.png) no-repeat left top;color:#2b2b2b;font-family:NotoSansKRM,sans-serif;font-size:22px;letter-spacing:-0.03em;}
+.staff>div>div.staffBox>div p.number1 {margin-bottom:15px;color:#646464;padding-left:60px;font-size:18px;letter-spacing:-0.025em}
+.staff>div>div.staffBox>div p.number1>span {color:#646464;font-size:18px;font-family:RobotoR,sans-serif;letter-spacing:-0.025em}
+.staff>div>div.staffBox>div p.number2 {color:#646464;padding-left:60px;font-size:18px;letter-spacing:-0.025em}
+.staff>div>div.staffBox>div p.number2>span {color:#646464;font-size:18px;font-family:RobotoR,sans-serif;letter-spacing:-0.025em}
+
+@media screen and (max-width:1024px){
+    .staff>div>div.staffBox {width:47%;margin-right:3% !important}
+    .staff>div>div.staffBox:not(:last-child) {margin-right:0}
+}
+@media screen and (max-width:640px){
+    .staff>div>div.staffBox {width:100%;margin-right:0 !important}
+    .staff>div>div.staffBox:not(:last-child) {margin-right:0}
+}
+
+
+
+
+@media screen and (max-width:719px){
+    #divTabMenu {margin-bottom:35px}
+    .headNumber {margin:35px 0 20px 0}
+    .headNumber>div>p>span.num {font-size:20px}
+}
+
+
+
+/*찾아오시는 길*/
+.guideMapW {margin-bottom:40px}
+.guideMapW p {margin-bottom:15px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em}
+.guideMap {border:1px solid #cdd8e8;box-shadow:0px 0px 21px rgba(0,0,0,0.11);-webkit-box-shadow:0px 0px 21px rgba(0,0,0,0.11)}
+.exMap {width:100%;height:auto}
+
+.companyLocation p {margin-bottom:15px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em}
+.companyLocation .locationImg {margin-bottom:50px;padding:45px 0;background:#eef1f6;border:1px solid #cdd8e8;box-shadow:0px 0px 21px rgba(0,0,0,0.11);-webkit-box-shadow:0px 0px 21px rgba(0,0,0,0.11);text-align:center}
+
+.traffic {margin-bottom:50px}
+.traffic>p {margin-bottom:20px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em;}
+.traffic>ul>li {position:relative;padding-left:8px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em;line-height:21px}
+.traffic>ul>li:not(:last-child) {margin-bottom:15px}
+.traffic>ul>li:before {content:"";display:block;position:absolute;top:9px;left:0;width:4px;height:1px;background:#1e1e1e}
+
+.address>p {margin-bottom:20px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em;}
+.address>ul>li {position:relative;padding-left:8px;color:#1e1e1e;font-size:16px;letter-spacing:-0.05em;line-height:21px}
+.address>ul>li:not(:last-child) {margin-bottom:15px}
+.address>ul>li:before {content:"";display:block;position:absolute;top:9px;left:0;width:4px;height:1px;background:#1e1e1e}
+
+@media screen and (max-width:719px){
+    .companyLocation .locationImg {padding:30px 0}
+    .companyLocation .locationImg img {width:100%;height:auto}
+
+    .traffic>p {margin-bottom:15px}
+    .traffic>ul>li:not(:last-child) {margin-bottom:8px}
+    .address>p {margin-bottom:15px}
+    .address>ul>li:not(:last-child) {margin-bottom:8px}
+}
+
+
+
+
+
+
+
+
+
+

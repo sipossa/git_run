@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="군사자료디지털아카이브">
+	<meta name="keyword" content="군사자료디지털아카이브">
+	<meta name="copyright" content="@copy;">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+	<title>군사자료디지털아카이브</title>
+
+	<!-- 스타일 -->
+	<link rel="stylesheet" href="style/ko/reset.css">
+	<link rel="stylesheet" href="style/ko/common.css">
+	<link rel="stylesheet" href="style/ko/sub.css">
+	<link rel="stylesheet" href="style/ko/common.css">
+	<link rel="stylesheet" href="style/ko/mylib/mylib.css.css">
+
+	<!-- 스크립트 -->
+	<script src="plugin/jquery/jquery-1.8.3.min.js"></script>
+	<script src="plugin/jquery/jquery.easing.1.3.js"></script>
+	<script src="plugin/jquery/jquery.placeholder.min.js"></script>
+	<script src="plugin/jquery/jquery.dotdotdot.js"></script>
+	<script src="script/sub.js"></script>
+</head>
+
+<body>
+	<div id="divAccessibility">
+		<ul>
+			<li><a href="#divTopMenu">메뉴 바로가기</a></li>
+			<li><a href="#divContents">본문 바로가기(skip to content)</a></li>
+			<li><a href="#divSearch">검색 바로가기</a></li>
+			<li><a href="#divFooter">도서관정보 바로가기</a></li>
+		</ul>
+	</div>
+	<div id="divWrapper">
+		<div class="blackBg"></div>
+		<!--divHeader-->
+		<div id="divHeader">
+			<!--header-->
+			<div class="header">
+				<div class="header1">
+					<div id="divGlobalMenu">
+						<div>
+							<div class="visit">
+								<a href="" title="처음 방문이세요?">처음 방문이세요?</a>
+							</div>
+							<ul class="globalMenu">
+								<li class="login">
+									<a href="" title="로그인" class="loginBtn">로그인</a>
+									<div class="snsLogin">
+										<p>SNS 계정 로그인</p>
+										<div>
+											<a href="" class="naver">네이버 로그인</a>
+											<a href="" class="kakao">카카오 로그인</a>
+											<a href="" class="google">구글 로그인</a>
+										</div>
+										<a href="" class="loginClose">닫기</a>
+									</div>
+								</li>
+								<li class="logout">
+									<a href="" title="로그아웃">로그아웃</a>
+								</li>
+								<li class="profile">
+									<a href="" title="프로필">프로필</a>
+								</li>
+								<li class="globalSearch">
+									<a href="" title="사이트내 검색">사이트내 검색</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header2">
+					<div>
+						<h1>
+							<a href="">군사자료<span>디지털아카이브</span></a>
+						</h1>
+						<div id="divTopMenu">
+							<div>
+								<ul>
+									<li>
+										<a href="">검색</a>
+										<ul>
+											<li>
+												<a href="상세검색.html" class="colorB">상세검색</a>
+											</li>
+											<li>
+												<a href="문서군검색.html" class="colorB">문서군검색</a>
+											</li>
+											<li>
+												<a href="">문서군소개</a>
+											</li>
+											<li>
+												<a href="">약어소개</a>
+											</li>
+											<li>
+												<a href="추천자료검색.html" class="colorB">추천자료검색</a>
+											</li>
+											<li>
+												<a href="검색목록.html" class="colorB">(검색목록)</a>
+											</li>
+											<li>
+												<a href="검색상세.html" class="colorB">(검색상세)</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">컬렉션</a>
+										<ul>
+											<li>
+												<a href="주요사건컬렉션.html">주요사건</a>
+											</li>
+											<li>
+												<a href="연구소편찬자료.html" class="colorB">연구소편찬자료</a>
+											</li>
+											<li>
+												<a href="연구소편찬자료 상세.html" class="colorB">(편찬자료상세)</a>
+											</li>
+											<li>
+												<a href="">군사지</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">참여마당</a>
+										<ul>
+											<li>
+												<a href="">공지사항</a>
+											</li>
+											<li>
+												<a href="">FAQ</a>
+											</li>
+											<li>
+												<a href="">Q&amp;A</a>
+											</li>
+											<li>
+												<a href="">자료실</a>
+											</li>
+											<li>
+												<a href="">오류신고</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">MY 아카이브</a>
+										<ul>
+											<li>
+												<a href="my기록물.html" class="colorB">MY 기록물</a>
+											</li>
+											<li>
+												<a href="">MY 검색기록</a>
+											</li>
+											<li>
+												<a href="">MY 열람기록</a>
+											</li>
+											<li>
+												<a href="">MY 코멘트</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">연구소소개</a>
+										<ul>
+											<li>
+												<a href="연구소 소개.html" class="colorB">인사말</a>
+											</li>
+											<li>
+												<a href="">연혁</a>
+											</li>
+											<li>
+												<a href="">이용안내</a>
+											</li>
+											<li>
+												<a href="">찾아오시는 길</a>
+											</li>
+											<li>
+												<a href="">조직도</a>
+											</li>
+											<li>
+												<a href="">사이트맵</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a href="" class="wholeMenuBtn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!--//header-->
+			<!--wholeMenu-->
+			<div class="wholeMenu">
+				<div>
+					<div class="wholeMenuList">
+						<div class="menuList">
+							<ul>
+								<li>
+									<a href="">검색</a>
+									<ul>
+										<li>
+											<a href="상세검색.html" class="colorW">상세검색</a>
+										</li>
+										<li>
+											<a href="문서군검색.html" class="colorW">문서군검색</a>
+										</li>
+										<li>
+											<a href="">문서군소개</a>
+										</li>
+										<li>
+											<a href="">약어소개</a>
+										</li>
+										<li>
+											<a href="추천자료검색.html" class="colorW">추천자료검색</a>
+										</li>
+										<li>
+											<a href="검색목록.html" class="colorW">(검색목록)</a>
+										</li>
+										<li>
+											<a href="검색상세.html" class="colorW">(검색상세)</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">컬렉션</a>
+									<ul>
+										<li>
+											<a href="주요사건컬렉션.html" class="colorW">주요사건</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료.html" class="colorW">연구소편찬자료</a>
+										</li>
+										<li>
+											<a href="연구소편찬자료 상세.html" class="colorW">(편찬자료상세)</a>
+										</li>
+										<li>
+											<a href="">군사지</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">참여마당</a>
+									<ul>
+										<li>
+											<a href="">공지사항</a>
+										</li>
+										<li>
+											<a href="">FAQ</a>
+										</li>
+										<li>
+											<a href="">Q&amp;A</a>
+										</li>
+										<li>
+											<a href="">자료실</a>
+										</li>
+										<li>
+											<a href="">오류신고</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">MY 아카이브</a>
+									<ul>
+										<li>
+											<a href="my기록물.html" class="colorW">MY 기록물</a>
+										</li>
+										<li>
+											<a href="">MY 검색기록</a>
+										</li>
+										<li>
+											<a href="">MY 열람기록</a>
+										</li>
+										<li>
+											<a href="">MY 코멘트</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">연구소소개</a>
+									<ul>
+										<li>
+											<a href="연구소 소개.html" class="colorW">인사말</a>
+										</li>
+										<li>
+											<a href="">연혁</a>
+										</li>
+										<li>
+											<a href="">이용안내</a>
+										</li>
+										<li>
+											<a href="">찾아오시는 길</a>
+										</li>
+										<li>
+											<a href="">조직도</a>
+										</li>
+										<li>
+											<a href="">사이트맵</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<a href="" class="wholeMenuClose">
+								<span></span>
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//wholeMenu-->
+		</div>
+		<!--//divHeader-->
+
+		<!--divContentsW-->
+		<div id="divContentsW">
+			<div id="divContents">
+				<div id="divSearch">
+					<form class="searchForm">
+						<fieldset>
+							<legend>자료검색</legend>
+							<div class="subSearch">
+								<div class="selectBox">
+									<select id="searchOpt" title="기본검색">
+										<option value="Opt1" selected="selected">기본검색</option>
+										<option value="Opt2">자료검색</option>
+									</select>
+								</div>
+								<input type="text" title="검색어 입력" class="textInput" placeholder="검색어를 입력하세요">
+								<input type="image" class="searchBtn" src="images/ko/ico/searchBtn.png" alt="검색" title="검색">
+								<a href="" class="detailSearchBtn">상세검색</a>
+								<a href="" class="docSearchBtn">문서군검색</a>
+							</div>
+						</fieldset>
+					</form>
+					<div class="retry">
+						<input type="checkbox" id="refineSearch">
+						<label for="refineSearch">결과 내 검색</label>
+					</div>
+				</div>
+				<div class="subInfo">
+					<h2 id="divTitle">MY 기록물</h2>
+					<div id="divLocation">
+						<ul>
+							<li><a href="">home</a></li>
+							<li><a href="">MY 아카이브</a></li>
+							<li><a href="">MY 기록물</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--divContent 시작-->
+				<div id="divContent">
+					<div class="myRecord">
+						<div class="recordHeader">
+							<select class="recordTypeSel" title="검색 항목을 선택하는곳">
+								<option value="1" selected="selected">제목</option>
+								<option value="2">생산기관</option>
+							</select>
+							<div>
+								<input type="text" title="검색어를 입력하세요">
+								<a href="" class="recordSearchBtn" title="검색">검색</a>
+							</div>
+						</div>
+						<div class="recordCon">
+							<div class="recordConHeader">
+								<div class="summary">
+									<p>Total <span class="sumNum">112</span><span class="accent">건</span></p>
+								</div>
+								<div class="convinientView">
+									<form>
+										<fieldset>
+											<legend>Search Option</legend>
+											<select class="conOpt1" title="쪽당 출력 건수">
+												<option value="10" selected="selected">10개씩 보기</option>
+												<option value="30">30개씩 보기</option>
+												<option value="50">50개씩 보기</option>
+											</select>
+											<select class="conOpt2" title="제목">
+												<option value="" selected="selected">제목</option>
+												<option value="">생산기관</option>
+												<option value="">일시</option>
+											</select>
+											<select class="conOpt3" title="정렬">
+												<option value="">내림차순</option>
+												<option value="">오름차순</option>
+											</select>
+											<input type="submit" value="조회" class="conSearch">
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<div class="recordTable">
+								<table>
+									<caption>코멘트 한 목록</caption>
+									<thead>
+										<tr>
+											<th scope="col" class="commnetTh1"><input type="checkbox"></th>
+											<th scope="col" class="commnetTh2">No.</th>
+											<th scope="col" class="commnetTh3">제목</th>
+											<th scope="col" class="commnetTh4">계층</th>
+											<th scope="col" class="commnetTh5">생산기관</th>
+											<th scope="col" class="commnetTh6">일시</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">1</td>
+											<td class="title">
+												<a href="" class="txtBtn">Free Turn in program</a>
+												<div class="commentW">
+													<ul>
+														<li>
+															<div class="comment">
+																<p class="commentWriter">홍길동</p>
+																<p class="commentCon">좋은 정보 감사합니다.</p>
+																<div class="commentBtn">
+																	<a href="#commentEditForm1" onclick="$('.html').focus;" class="edit">수정</a>
+																	<a href="" class="delete">삭제</a>
+																</div>
+															</div>
+															<div class="commentPop" id="commentEditForm1">
+																<div class="commentPopTop">
+																	<p class="tit">코멘트</p>
+																	<a href="" class="popClose">닫기</a>
+																</div>
+																<div class="commentCont">
+																	<textarea placeholder="내용을 입력하세요111"></textarea>
+																	<div class="commentPopBtn">
+																		<input type="reset" value="취소" class="btnType1">
+																		<input type="submit" value="저장" class="btnType2">
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="comment">
+																<p class="commentWriter">홍길동</p>
+																<p class="commentCon">좋은 정보 감사합니다.</p>
+																<div class="commentBtn">
+																	<a href="#commentEditForm2" onclick="$('.html').focus;" class="edit">수정</a>
+																	<a href="" class="delete">삭제</a>
+																</div>
+															</div>
+															<div class="commentPop" id="commentEditForm2">
+																<div class="commentPopTop">
+																	<p class="tit">코멘트</p>
+																	<a href="" class="popClose">닫기</a>
+																</div>
+																<div class="commentCont">
+																	<textarea placeholder="내용을 입력하세요22"></textarea>
+																	<div class="commentPopBtn">
+																		<input type="reset" value="취소" class="btnType1">
+																		<input type="submit" value="저장" class="btnType2">
+																	</div>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+											
+											</td>
+											<td class="classify">파일</td>
+											<td class="publish">Stars and Stripes</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>
+									<!--	<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">2</td>
+											<td class="title">
+												<a href="" class="txtBtn">Stars and Stripes pacific Edition</a>
+												<div class="commentW">
+													<div class="comment">
+														<p class="commentWriter">홍길동</p>
+														<p class="commentCon">좋은 정보 감사합니다.</p>
+														<div class="commentBtn">
+															<a href="#commentEditForm2" onclick="$('.html').focus;" class="edit">수정</a>
+															<a href="" class="delete">삭제</a>
+														</div>
+													</div>
+												</div>
+												<div class="commentPop" id="commentEditForm3">
+													<div class="commentPopTop">
+														<p class="tit">코멘트</p>
+														<a href="" class="popClose">닫기</a>
+													</div>
+													<div class="commentCont">
+														<textarea placeholder="내용을 입력하세요22"></textarea>
+														<div class="commentPopBtn">
+															<input type="reset" value="취소" class="btnType1">
+															<input type="submit" value="저장" class="btnType2">
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="classify">그룹</td>
+											<td class="publish">Stars and Stripes</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>
+										<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">3</td>
+											<td class="title">
+												<a href="" class="txtBtn">Stars and Stripes pacific Edition(1952.10.11)</a>
+												<div class="commentW">
+													<div class="comment">
+														<p class="commentWriter">홍길동</p>
+														<p class="commentCon">좋은 정보 감사합니다.</p>
+														<div class="commentBtn">
+															<a href="#commentEditForm3" onclick="$('.html').focus;" class="edit">수정</a>
+															<a href="" class="delete">삭제</a>
+														</div>
+													</div>
+												</div>
+												<div class="commentPop" id="commentEditForm3">
+													<div class="commentPopTop">
+														<p class="tit">코멘트</p>
+														<a href="" class="popClose">닫기</a>
+													</div>
+													<div class="commentCont">
+														<textarea placeholder="내용을 입력하세요333"></textarea>
+														<div class="commentPopBtn">
+															<input type="reset" value="취소" class="btnType1">
+															<input type="submit" value="저장" class="btnType2">
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="classify">시리즈</td>
+											<td class="publish">Stars and Stripes</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>
+										<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">4</td>
+											<td class="title">
+												<a href="" class="txtBtn">Free Turn in program</a>
+												<div class="commentW">
+													<div class="comment">
+														<p class="commentWriter">홍길동</p>
+														<p class="commentCon">좋은 정보 감사합니다.</p>
+														<div class="commentBtn">
+															<a href="#commentEditForm4" onclick="$('.html').focus;" class="edit">수정</a>
+															<a href="" class="delete">삭제</a>
+														</div>
+													</div>
+												</div>
+												<div class="commentPop" id="commentEditForm4">
+													<div class="commentPopTop">
+														<p class="tit">코멘트</p>
+														<a href="" class="popClose">닫기</a>
+													</div>
+													<div class="commentCont">
+														<textarea placeholder="내용을 입력하세요444"></textarea>
+														<div class="commentPopBtn">
+															<input type="reset" value="취소" class="btnType1">
+															<input type="submit" value="저장" class="btnType2">
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="classify">파일</td>
+											<td class="publish">MACV</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>
+										<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">5</td>
+											<td class="title">
+												<a href="" class="txtBtn">Stars and Stripes pacific Edition</a>
+												<div class="commentW">
+													<div class="comment">
+														<p class="commentWriter">홍길동</p>
+														<p class="commentCon">좋은 정보 감사합니다.</p>
+														<div class="commentBtn">
+															<a href="#commentEditForm5" onclick="$('.html').focus;" class="edit">수정</a>
+															<a href="" class="delete">삭제</a>
+														</div>
+													</div>
+												</div>
+												<div class="commentPop" id="commentEditForm5">
+													<div class="commentPopTop">
+														<p class="tit">코멘트</p>
+														<a href="" class="popClose">닫기</a>
+													</div>
+													<div class="commentCont">
+														<textarea placeholder="내용을 입력하세요555"></textarea>
+														<div class="commentPopBtn">
+															<input type="reset" value="취소" class="btnType1">
+															<input type="submit" value="저장" class="btnType2">
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="classify">그룹</td>
+											<td class="publish">Stars and Stripes</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>
+										<tr>
+											<td class="chkContent"><input type="checkbox"></td>
+											<td class="number">6</td>
+											<td class="title">
+												<a href="" class="txtBtn">Stars and Stripes pacific Edition(1952.10.11)</a>
+												<div class="commentW">
+													<div class="comment">
+														<p class="commentWriter">홍길동</p>
+														<p class="commentCon">좋은 정보 감사합니다.</p>
+														<div class="commentBtn">
+															<a href="#commentEditForm6" onclick="$('.html').focus;" class="edit">수정</a>
+															<a href="" class="delete">삭제</a>
+														</div>
+													</div>
+												</div>
+												<div class="commentPop" id="commentEditForm6">
+													<div class="commentPopTop">
+														<p class="tit">코멘트</p>
+														<a href="" class="popClose">닫기</a>
+													</div>
+													<div class="commentCont">
+														<textarea placeholder="내용을 입력하세요666"></textarea>
+														<div class="commentPopBtn">
+															<input type="reset" value="취소" class="btnType1">
+															<input type="submit" value="저장" class="btnType2">
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="classify">시리즈</td>
+											<td class="publish">Stars and Stripes</td>
+											<td class="date">2021/01/15 10:05:00</td>
+										</tr>-->
+									</tbody>
+								</table>
+								<div class="buttons">
+									<a href="" class="deleteBtn">삭제</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--//divContent-->
+			</div>
+			<!--//divContents-->
+		</div>
+		<!--//divContentsW-->
+
+		<!--divFooter-->
+		<div id="divFooter">
+			<div class="footerMenu">
+				<ul>
+					<li>
+						<a href="" title="개인정보처리방침">개인정보처리방침</a>
+					</li>
+					<li>
+						<a href="" title="이용약관">이용약관</a>
+					</li>
+					<li>
+						<a href="" title="이메일무단수집거부">이메일무단수집거부</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerInfo">
+				<address>
+					서울특별시 용산구 이태원로29 군사편찬연구소[우편번호:04353] 대표전화 : 02-748-1685 | 민원안내 : 02-748-1681 | 정보자료실 : 02-709-3187 | Fax : 02-748-1638
+				</address>
+				<p class="copy">COPYRIGHT&copy;2013 대한민국 국방부 군사편찬연구소. All right reserved</p>
+			</div>
+		</div>
+		<!--//divFooter-->
+		<a href="" class="topBtn">Top</a>
+	</div>
+	<!--divWrapper-->
+</body>
+
+</html>
